@@ -1,9 +1,7 @@
-const App = () => {
-  return (
-    <div className="text-3xl underline font-bold">
-      Hello world!
-    </div>
-  )
-}
+import HomePage from './pages/HomePage';
 
-export default App
+const App = () => {
+  return <HomePage />;
+};
+
+export default App;
